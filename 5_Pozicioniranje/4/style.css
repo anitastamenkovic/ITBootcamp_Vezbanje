@@ -1,0 +1,50 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: cursive;
+ font-size: 1.5rem;
+}
+
+body {
+ width: 100%;
+}
+
+header, nav, article, section, aside, footer {
+ border: 1px solid red;
+ background-color: grey;
+ color: white;
+ text-align: center;
+ padding: 10px;
+ margin: 10px;
+ border-radius: 10px;
+}
+
+section {
+ background-color: rgb(75, 74, 74);
+ height: 200px;
+}
+
+div.container {
+ position: relative;
+ width: 100%;
+}
+
+article {
+ position: absolute;
+ width: 55%;
+}
+
+
+aside {
+ position: absolute;
+ float: right;
+ right: 0;
+ width: 43%;
+ height: 290px;
+}
+
+footer {
+ position: absolute;
+ top: 480px;
+}

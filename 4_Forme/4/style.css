@@ -1,0 +1,33 @@
+body {
+ color: grey;
+}
+
+fieldset {
+ border: 2px solid purple;
+ padding: 0 20px 20px 20px;
+ width: 450px;
+}
+ 
+ h1 {
+ color: purple;
+ font-size: 2.5rem;
+}
+
+label, input, a, button {
+ font-size: 1.5rem;
+}
+
+input {
+ padding: 5px;
+}
+
+a {
+ color: purple;
+}
+
+button {
+ background-color: rgb(165, 1, 165);
+ color: white;
+ border: 2px solid rgb(73, 1, 73);
+ padding: 10px;
+}

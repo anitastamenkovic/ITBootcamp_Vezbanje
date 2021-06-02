@@ -1,0 +1,75 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: cursive;
+}
+
+table, tr, td {
+  margin: 0 auto;
+}
+
+td {
+ padding: 0 5px;
+}
+
+img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+img, p, table, th, td {
+ text-align: center;
+}
+
+.orange {
+ color: orange;
+ text-transform: uppercase;
+ font-size: 2rem;
+}
+
+.blue {
+ color: blue;
+}
+
+.green {
+ color: green;
+}
+
+.red {
+ color: red;
+}
+
+.center {
+ vertical-align: center;
+ text-align: center;
+}
+
+.padding {
+ padding: 20px;
+}
+
+div {
+ display: flex;
+ flex-direction: column;
+ border-radius: 50%;
+}
+
+.blueb {
+ border: 1px dashed blue;
+}
+
+.greenb {
+ border: 1px dashed green;
+}
+
+.redb {
+ border: 1px dashed red;
+}
+
+.bluebs {
+ border: 1px solid blue;
+}

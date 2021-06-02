@@ -1,0 +1,29 @@
+table {
+  border: 3px solid blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr, th, td {
+ border: 1px solid blue;
+ padding: 5px;
+}
+
+img {
+ width: 100px;
+}
+
+.center {
+ text-align: center;
+}
+
+.naslov {
+ font-size: 1.7rem;
+ font-weight: 900;
+}
+
+a {
+ color: red;
+ text-decoration: none;
+
+}

@@ -1,0 +1,23 @@
+.static {
+ background-color: green;
+ position: static;
+}
+
+.relative {
+ background-color: red;
+ position: relative;
+ left: 100px;
+}
+
+.absolute {
+ background-color: blue;
+ position: absolute;
+ bottom: 50px;
+ left: 100px;
+}
+
+.fixed {
+ position: fixed;
+ top: 30px;
+ right: 5px;
+}

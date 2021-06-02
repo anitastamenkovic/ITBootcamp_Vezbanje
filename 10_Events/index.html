@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Prvi zadatak -->
+    <p>
+      <button id="brojac">Brojac</button>
+    </p>
+
+    <!-- Drugi zadatak -->
+    <p>
+      <button id="brojac1">Brojac 1</button>
+      <p id="ispisBrojaca1"></p>
+    </p>
+
+    <!-- Treci i cetvrti zadatak -->
+    <p>
+     <button id="btnDodaj">+</button>
+     <span id="upisiBroj">0</span>
+     <button id="btnOduzmi">-</button>
+    </p>
+
+    <!-- Peti zadatak -->
+    <p>
+     <input type="text" id="polje" placeholder="Unesite ime">
+     <button id="zdravoDugme">Zdravo!</button>
+     <p id="zdravoParagraf"></p>
+    </p>
+
+    <!-- Peti zadatak drugi nacin -->
+    <p>
+        <form action="">
+            <input type="text" name="" id="prezime" placeholder="Unesite prezime">
+            <button id="posaljiPrezime">Pošalji prezime</button>
+            <!-- <input type="button" value="Pošalji prezime"> -->
+            <!-- <input type="submit" value="Pošalji prezime"> -->
+        </form>
+        <p id="prikaziPrezime"></p>
+    </p>
+
+    <!--  PRIMER -->
+    <p>
+        <form action="" id="forma">
+            <input type="text" name="" id="jelo" placeholder="Omiljeno jelo"><br><br>
+            <input type="text" name="" id="pice" placeholder="Omiljeno piće"><br><br>
+            <input type="submit" value="Pošalji">
+        </form>
+        <p id="ispis"></p>
+    </p>
+
+    <!-- Sedmi zadatak -->
+
+      <form>
+        <fieldset>
+          <label>Kvadriraj ovaj broj: </label>
+          <input type="number" id="inputKvadrat" placeholder="Unesite broj">
+          <button id="btnKvadrat">Izracunaj</button>
+          <p id="ispisRezultata1"></p>
+        </fieldset>
+      </form>
+      
+      <form>
+        <fieldset>
+          <label>Prepolovi ovaj broj: </label>
+          <input type="number" id="inputPrepolovi" placeholder="Unesite broj">
+          <button id="btnPrepolovi">Izracunaj</button>
+          <p id="ispisRezultata2"></p>
+        </fieldset>
+      </form>
+
+      <form>
+        <fieldset>
+          <label>Izracunaj povrsinu kruga za zadati poluprecnik: </label>
+          <input type="number" id="inputKrug" placeholder="Unesite poluprecnik">
+          <button id="btnKrug">Izracunaj</button>
+          <p id="ispisRezultata3"></p>
+        </fieldset>
+      </form>
+      
+    <script src="script.js"></script>
+  </body>
+</html>

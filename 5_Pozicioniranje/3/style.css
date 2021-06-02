@@ -1,0 +1,62 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+nav {
+ width: 100%;
+}
+
+div {
+ float: left;
+ padding: 15px;
+}
+
+div.logo {
+ background-color: darkblue;
+ color: white;
+ width: 15%;
+}
+
+div.logo span {
+ font-style: italic;
+ font-weight: bold;
+}
+
+div.navbar {
+ width: 60%;
+ background-color: black;
+}
+
+div.navbar ul {
+ text-align: center;
+}
+
+div.navbar ul li {
+ padding: 0 20px;
+}
+
+ul li {
+ list-style-type: none;
+ display: inline;
+ color: white;
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+}
+
+div.log {
+ background-color: darkblue;
+ width: 25%;
+ padding: 24px;
+}
+
+div.log ul {
+ position: absolute;
+ right: 10px;
+ line-height: 0px;
+}
+ 

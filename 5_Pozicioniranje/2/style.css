@@ -1,0 +1,37 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+form {
+ background-image: url("./84bad9491f2720a4ebe17fedf3690f19.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+fieldset {
+ z-index: 2;
+}
+
+h2 {
+ background-color: darkturquoise;
+ color: white;
+ text-align: center;
+ padding: 20px;
+}
+
+input, textarea {
+ display: block;
+ width: 100%;
+ margin-top: 20px;
+ padding: 10px;
+ font-size: 16px;
+}
+
+input[type=submit] {
+ background-color: darkturquoise;
+ border: none;
+ color: white;
+}

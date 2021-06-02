@@ -1,0 +1,41 @@
+* {
+ box-sizing: border-box;
+}
+
+legend {
+ font-style: bold;
+}
+
+input, select {
+ padding: 12px;
+ border: 1px solid grey;
+}
+
+label {
+ padding: 12px 12px 12px 0;
+ display: inline-block;
+}
+
+.container {
+ border: 1px solid grey;
+ padding: 5px;
+ width: 50%;
+}
+
+.col-25 {
+ float: left;
+ width: 25%;
+ margin-top: 6px;
+}
+
+.col-75 {
+ float: left;
+ width: 75%;
+ margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

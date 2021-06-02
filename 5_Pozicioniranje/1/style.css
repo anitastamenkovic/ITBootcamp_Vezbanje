@@ -1,0 +1,25 @@
+div {
+ width: 200px;
+ border: 1px solid red;
+}
+
+h2 span {
+ color: red;
+}
+
+img {
+ width: 195px;
+ height: 195px;
+ border: 2px dashed red;
+ border-radius: 50%;
+}
+
+h4 {
+ color: blue;
+}
+
+p {
+ border: 1px solid red;
+ height: 150px;
+ overflow: auto;
+}
